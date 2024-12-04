@@ -34,7 +34,7 @@ namespace ConsoleApp3
         }
         static double GetCircumference(double r,int n)
         {
-            return CountPi(n) * r;
+            return CountPi(n) * r*2;
         }
         static double GetCircleArea(double r,int n)
         {
